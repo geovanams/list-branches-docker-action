@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Listar Branches action
         id: list
-        uses: geovanams/list-branches-docker-action@v2
+        uses: geovanams/list-branches-docker-action@v1
         with:
           owner: 'geovanams'
           repo: 'public-repo'
