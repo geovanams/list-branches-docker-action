@@ -10,7 +10,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://geovana10/list-branches-docker-action:v1'
   args:
     - ${{ inputs.owner }}
-    - ${{ inputs.repo }} 
+    - ${{ inputs.repo }}
